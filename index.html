@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="copyright" content="Copyright © AlfreDelnardo.com"/>
+  <title>CvAlfredoDelnardo</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+
+</head>
+
+<body>
+  <a name="inicio"/>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <h2>A<span>D</span></h2>
+        </div>
+        <ul class="menu" id="menu">
+          <li><a class="active" href="#inicio">Inicio</a></li>
+          <li><a href="#sobreMi">Sobre_mi</a></li>
+          <li><a href="#skills">Conocimientos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="toggle-menu">
+          <i class="fa-solid fa-bars" id="toggle_open"></i>
+          <i class="fa-solid fa-close" id="toggle_close"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main" id="menu">
+      <div class="info-content">
+        <h1>Soy<span>Alfredo</span>Delnardo</h1>
+        <p class="info-content_p">Analista QA-QC | Tester Manual</p>
+        <p class="info-content_p">Dasarrollador Frontend</p>
+        <a class="info-content_p" download href="/CV/CV.AlfredoD.pdf">
+          <button class="dowmload-cv">Descargar CV</button>
+        </a>
+      </div>
+      
+      <img src="./img/Alfredo1.png" alt="FotoAD">
+    </main>
+  </div>
+
+  <div class="about">
+    <img src="/img/Alfredo3.png" alt="AboutAD">
+
+    <div class="about-info">
+      <h2>Sobre mi</h2>
+      <div class="divider"></div>
+      <a name="sobreMi"/>
+      <br>
+      <p>
+        Hola, mi nombre es Alfredo Delnardo, Ingeniero en operaciones marítimas, antes de dedicarme al mundo IT, me
+        recibí
+        como Ing. Marítimo en Venezuela, en mi 6to y 7mo semestre de ingeniería cursé informática I y II, donde comencé
+        a
+        conocer y a apasionarme por el mundo IT, en ese momento conocí Linux, C++, lógica de programación, algoritmos, y
+        tuve mis primeras experiencias con una consola. Luego de recibirme por allá en el 2013 y trabajar unos años como
+        oficial e ingeniero de marina mercante en empresas nacionales como PDVMarina, tome la decisión junto a mi pareja
+        de emigrar en el 2018 a la República de Argentina, donde continúe mi pasión por la tecnología, realice cursos
+        acerca de metodologías de trabajo, HTML-CSS, Software Testing, SQL, entre otros, pudiéndome incorporar en el
+        mercado laboral.
+      </p>
+      <p>Hoy en día, me desempeño como Analista QA SSR inicial, en la empresa de Ecommerce, CoreBiz Latam,
+        desempeñándome
+        en un proyecto B2B. Cabe destacar que continúo aprendiendo nuevas tecnologías y o herramientas que mejoren mi
+        performance, de tal manera que pueda llegar a ser Ingeniero QA, es mi Norte.</p>
+    </div>
+  </div>
+
+  <div class="skills">
+    <a name="skills"/>
+    <div class="skills-headings">
+      <h2>Conocimientos</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <div class="card_img">
+          <img src="/img/Software-testing.webp" alt="">
+        </div>
+        <div class="card_title">
+          <h2>Sotfware Testing</h2>
+        </div>
+        <div class="card-projects-links">
+          <p>QA-QC, Análisis de requerimientos, Creación de planes de pruebas, Casos de uso, Casos de prueba, Reporte y seguimientos de Bugs, Testing funcional, Test de performance, UAT…</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_img">
+          <img src="/img/SQL.webp" alt="">
+        </div>
+        <div class="card_title">
+          <h2>MySQL</h2>
+        </div>
+        <div class="card-projects-links">
+          <p>Queries con lenguaje SQL y CRUD.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_img">
+          <img src="/img/DiseñoWeb.jpg" alt="">
+        </div>
+        <div class="card_title">
+          <h2>HTML-CSS-JS</h2>
+        </div>
+        <div class="card-projects-links">
+          <p>Maquetado y desarrollo web, hosting, git, librerías.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_img">
+          <img src="/img/Postman-for-API-Testing.webp" alt="">
+        </div>
+        <div class="card_title">
+          <h2>API Testing</h2>
+        </div>
+        <div class="card-projects-links">
+          <p>CRUD en general y Pruebas API usando la herramienta postman.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<hr>
+  <div class="contact">
+    <div class="contact-headings">
+      <a name="contacto"/>
+      <h2>Contactame</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="container-contact">
+      <div class="contact-form">
+        <h4>Enviame un mensaje</h4>
+      </div>
+        <form id="form" action="https://formsubmit.co/alfredodelnardo@gmail.com" class="form" method="POST">
+          <input id="name" name="name" type="text" placeholder="Tu Nombre" required>
+          <input id="email" name="email" type="email" placeholder="Tu Email">
+          <textarea id="message" name="message" placeholder="Ingresa tu mensaje acá..."></textarea>
+          <button type="submit" class="btn-submit">
+            Enviar Mensaje
+          </button>
+        </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h2>Alfredo Delnardo</h2>
+      <h5>QA Analyst - Manual Tester | Frontend Developer</h5>
+    </div>
+    <div class="sotial-network">
+      <a href="https://www.linkedin.com/in/alfredo-d-7b911a251" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </div>
+  </footer>
+
+  <script src="/scripts.js"></script>
+</body>
+
+</html>
