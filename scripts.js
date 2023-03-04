@@ -6,8 +6,6 @@ let toggle_close = document.getElementById('toggle_close');
 
 toggle_open.addEventListener('click',toggleMenu);
 toggle_close.addEventListener('click',toggleMenu);
-/*toggle_open.addEventListener('touchstart',toggleMenu);
-toggle_close.addEventListener('touchstart',toggleMenu);*/
 
 function toggleMenu() {
     menu.classList.toggle('show-menu');
